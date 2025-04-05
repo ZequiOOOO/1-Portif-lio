@@ -1,0 +1,115 @@
+body{
+
+    background:repeating-linear-gradient(-125deg, #1d0c95, #434b4ff7 52%);
+}    
+.menu{
+   display: flex ;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   height: 65px;
+   border-radius: 0px;
+   color:rgb(255, 255, 255);
+   position: relative;
+   top: 5px;
+}
+.nome{
+    font-family:monospace;
+    
+}
+nav{
+    display: flex;
+}
+
+nav a{
+    display: flex;
+color:rgb(248, 250, 247);
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+    
+}
+.portifolio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.imagem-portifolio img{
+    width: 570px;
+    margin: -33px;
+    box-sizing: content-box;
+    justify-self: center;
+}
+.sobre-mim{ 
+    margin: 100px -11%;
+    color: rgb(255, 255, 255);
+    border: 14px groove #63d9d7;
+    background-color: gray;
+    font-family: serif;
+    font-size: 40px;
+    animation: float 3s ease-in-out infinite;
+    border-radius: 30px;
+    width: 41%;
+    margin-left: -100px;
+    height: max-content;
+    z-index: 99999;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+
+
+}
+.svg{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.h3, a{
+    display: flex;
+    flex-wrap:nowrap;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.itens-link { 
+    padding-top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.link-eu{
+    width: 22%;
+    height: 22%;
+    border: 12px groove #63d9d7;
+    border-radius: 30px;
+    color: ghostwhite;
+    background-color: gray;
+    color: rgb(249, 255, 249);
+    font-family: serif;
+}
+.link-projeto{
+    width: 39%;
+    border: 12px groove #63d9d7;
+    border-radius: 30px;
+    color: aliceblue;
+    background-color: gray;
+    color: rgb(232, 255, 231);
+    font-family: serif;
+}
+.link-experiencia{
+    width: 234px;
+    border: 12px groove #63d9d7;
+    border-radius: 30px;
+    color: aliceblue;
+    background-color: gray;
+    color: rgb(241, 255, 240);
+    font-family: serif;
+}
