@@ -125,7 +125,12 @@ p{
     font-family: serif;
 }
 
-
+.WhatsApp {
+    position: fixed;
+    bottom: 80px;
+    right: 26px;
+    z-index: 9999;
+}
 
 
 @media screen and (max-width: 480px) {
@@ -187,8 +192,9 @@ p{
         width: 100%;
      
     }
-    
-    
+    .WhatsApp img {
+        width: 50px !important;
+    }
     
         
 }
