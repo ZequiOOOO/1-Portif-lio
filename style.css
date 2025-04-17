@@ -28,15 +28,25 @@ color:rgb(248, 250, 247);
     text-decoration: none;
     margin: 0 15px;
     font-size: 1.1em;
-    transition: color 0.3s ease;
-    
+    transition: color 0.3s ease;    
 }
-.portifolio{
+
+nav a:hover{
+   border: 2px double #fefdff;
+   border-radius: 7px;
+   background-color: rgba(127, 255, 212, 0.397);
+}
+svg{
+    width: 100%;
+    display: flex;
+justify-content: center;
+}
+.portfolio{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-.imagem-portifolio img{
+.imagem-portfolio img{
     width: 570px;
     margin: -33px;
     box-sizing: content-box;
@@ -46,7 +56,7 @@ color:rgb(248, 250, 247);
     margin: 100px -11%;
     color: rgb(255, 255, 255);
     border: 14px groove #63d9d7;
-    background-color: gray;
+    background: linear-gradient(to top, rgb(5, 5, 66), rgb(11, 12, 114), rgb(0, 132, 255));
     font-family: serif;
     font-size: 40px;
     animation: float 3s ease-in-out infinite;
@@ -83,7 +93,8 @@ color:rgb(248, 250, 247);
     flex-wrap: wrap;
 }
 p{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui;
+    color: white;
 }
 .link-eu{
     width: 22%;
@@ -91,16 +102,16 @@ p{
     border: 12px groove #63d9d7;
     border-radius: 30px;
     color: ghostwhite;
-    background-color: gray;
+    background: linear-gradient(to top, rgb(5, 5, 66), rgb(11, 12, 114), rgb(0, 132, 255));
     color: rgb(249, 255, 249);
     font-family: serif;
 }
 .link-projeto{
-    width: 39%;
+    width: 50%;
     border: 12px groove #63d9d7;
     border-radius: 30px;
     color: aliceblue;
-    background-color: gray;
+    background: linear-gradient(to top, rgb(5, 5, 66), rgb(11, 12, 114), rgb(0, 132, 255));
     color: rgb(232, 255, 231);
     font-family: serif;
 }
@@ -109,7 +120,75 @@ p{
     border: 12px groove #63d9d7;
     border-radius: 30px;
     color: aliceblue;
-    background-color: gray;
+    background: linear-gradient(to top, rgb(5, 5, 66), rgb(11, 12, 114), rgb(0, 132, 255));
     color: rgb(241, 255, 240);
     font-family: serif;
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+    body{
+        padding: 10px !important;
+        box-sizing: border-box;
+        background:linear-gradient(-125deg, #1d0c95, #434b4ff7 52%);
+    }    
+    
+    .portfolio{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .imagem-portfolio img{
+       display: none;
+    }
+    .sobre-mim{ 
+        width: 100%;
+        margin-left: -10px;
+        z-index: 99999;
+    }
+    
+    @keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-20px); }
+    
+    
+    }
+    .svg{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .h3, a{
+        display: flex;
+        flex-wrap:nowrap;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+    .itens-link { 
+        padding-top: 0px;
+        width: 100%;
+    }
+    p{
+        text-align: center;
+        font-family: system-ui;
+    }
+    .link-eu{
+        width: 100%;
+    
+    }
+    .link-projeto{
+        width: 100%;
+        font-size: small;
+       
+    }
+    .link-experiencia{
+        width: 100%;
+     
+    }
+    
+    
+    
+        
 }
