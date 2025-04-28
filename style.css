@@ -127,11 +127,23 @@ p{
 
 .WhatsApp {
     position: fixed;
-    bottom: 80px;
+    bottom: 50px;
     right: 26px;
     z-index: 9999;
 }
 
+footer{
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+      margin: 5px;
+      border: 5px solid;
+      border-radius: 15px;
+      background: #005d60;
+      color: white;
+      justify-content: center;
+      gap: 10px;
+}
 
 @media screen and (max-width: 480px) {
     body{
@@ -173,6 +185,7 @@ p{
     }
     .itens-link { 
         padding-top: 0px;
+        gap: 5px;
         width: 100%;
     }
     p{
@@ -193,8 +206,14 @@ p{
      
     }
     .WhatsApp img {
+        margin: 15px;
         width: 50px !important;
     }
-    
+    footer{
+        width: 100%;
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+    }   
         
 }
