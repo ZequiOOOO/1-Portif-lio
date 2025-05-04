@@ -1,6 +1,6 @@
 body{
-
-    background:repeating-linear-gradient(-125deg, #1d0c95, #434b4ff7 52%);
+    width: 100%;
+    background: radial-gradient(#18a9a2, #0925fdbf);
 }    
 .menu{
    display: flex ;
@@ -149,7 +149,7 @@ footer{
     body{
         padding: 10px !important;
         box-sizing: border-box;
-        background:linear-gradient(-125deg, #1d0c95, #434b4ff7 52%);
+        background: radial-gradient(#18a9a2, #0925fdbf); 
     }    
     
     .portfolio{
