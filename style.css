@@ -144,6 +144,14 @@ footer{
       justify-content: center;
       gap: 10px;
 }
+.Projeto-demonstracao, p{
+    color: rgb(232, 255, 231);
+    font-family: sans-serif;
+    text-align: center;
+}
+.siteWeb{
+    color: darkgreen;
+}
 
 @media screen and (max-width: 480px) {
     body{
