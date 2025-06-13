@@ -47,22 +47,22 @@ justify-content: center;
     justify-content: space-around;
 }
 .imagem-portfolio img{
-    width: 570px;
-    margin: -33px;
+    width: 533px;
+    margin: 20px -40px;
     box-sizing: content-box;
     justify-self: center;
 }
-.sobre-mim{ 
-    margin: 100px -11%;
+.sobre-mim{
+    margin: 100px -5%;
     color: rgb(255, 255, 255);
     border: 14px groove #63d9d7;
     background: linear-gradient(to top, rgb(5, 5, 66), rgb(11, 12, 114), rgb(0, 132, 255));
     font-family: serif;
-    font-size: 40px;
+    font-size: 24px;
     animation: float 3s ease-in-out infinite;
     border-radius: 30px;
-    width: 41%;
-    margin-left: -100px;
+    width: 62%;
+    margin-left: -36px;
     height: max-content;
     z-index: 99999;
 }
